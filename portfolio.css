@@ -1,0 +1,111 @@
+@font-face{
+	font-family:"Gotham";
+	src: url(Gotham-Book_0.ttf) format("truetype");
+}
+*{
+  z-index:0;
+}
+html{
+	background-image:url('Background.png');
+	background-repeat:no-repeat;
+	background-position:top-left;
+	font-family: "Gotham";
+}
+h1{
+	font-size:100px;
+	text-align:top-left;
+	padding: 10px;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-bottom:0px;
+	margin-top:-5px;
+	position:relative;
+	top:0px;
+	left:0px;
+	color:white;
+}
+h2{
+	font-size:60px;
+	text-align:left;
+	padding-left:120px;
+	padding-top:10px;
+	margin-top:0px;
+	color:white;
+}
+.portfolio{
+	position:relative;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	float:center;
+	margin-bottom:50px;
+	max-width:80%;
+}
+.theatre_header{
+	position:relative;
+	margin:auto;
+	display:block;
+	float:left;
+}
+.physcomp_header{
+	position:relative;
+	margin:auto;
+	display:block;
+	float:right;
+}
+.nav{
+	position:relative;
+	width:100%;
+	bottom:-10px;
+	text-align:center;
+	display:block;
+}
+.nav-items{
+	width:90%;
+	float:right;
+}
+.nav ul{
+	list-style-type:none;
+	height:100%;
+	float:right;
+}
+.nav ul li{
+	float:left;
+	margin:auto;
+	display:block;
+}
+.nav ul li :hover{
+	background-color:rgba(100, 100, 100, 255); 
+}
+.nav ul li a{
+	font-size:36px;
+	display:block;
+	color:white;
+	padding:14px;
+	text-decoration:none;
+}
+.active-nav{
+	background-color:rgba(180, 180, 180, 255);
+}
+.blackline{
+	width:60%;
+	height:50px;
+	margin-top:20px;
+	background-color:rgba(30, 30, 30, 80);
+	display:block;
+	z-index:-1;
+}
+.line-top{
+	left:0px;
+	top:15px;
+	position:absolute;
+}
+.line-bottom{
+	right:0px;
+	position:absolute;
+	top:10px;
+}
+.resume{
+	padding-left:25%;
+}
