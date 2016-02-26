@@ -32,23 +32,11 @@ h2{
 	margin-top:0px;
 	color:white;
 }
-.photos{
-	max-width:60%;
-	margin-bottom:5px;
-	padding:0px;
-	margin:auto;
-	top:-40px;
-	display: block;
-}
-.photos-big{
-	position:relative;	
-}
-.photos img{
+.portfolio{
+	position:relative;
 	width:100%;
-}
-.photo{
-	display: none;
-	position:absolute;
+	height:100%;
+	background-color:black;
 }
 .active-photo{
 	display: block;
