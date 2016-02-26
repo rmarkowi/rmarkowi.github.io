@@ -32,11 +32,16 @@ h2{
 	margin-top:0px;
 	color:white;
 }
-.portfolio{
-	position:relative;
-	width:100%;
-	height:100%;
-	background-color:black;
+.resume{
+	display:block;
+}
+.resume_link{
+	display:block;
+	color:white;
+	text-align:center;
+	font-size:40px;
+	font-family:"Gotham";
+	margin-top:10px;
 }
 .active-photo{
 	display: block;
@@ -44,7 +49,7 @@ h2{
 .nav{
 	position:relative;
 	width:100%;
-	bottom:-10px;
+	bottom:0px;
 	text-align:center;
 	display:block;
 }
